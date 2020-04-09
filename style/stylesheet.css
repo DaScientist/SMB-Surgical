@@ -25,6 +25,13 @@ ul {
   justify-content: space-between;
 }
 
+.footer {
+  background-color: #0094d3;
+  height: 2rem;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
 
 .header-buttons {
   margin: 4px;
