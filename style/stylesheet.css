@@ -14,8 +14,10 @@ ul {
   background-color: #FFF;
   margin: 0px;
   padding: 2px;
-  /* overflow: hidden; */
+  overflow: hidden;
   z-index: 100;
+  position: fixed;
+  top: 0;
   /* min-height: 20px; */
   /* display: block; */
   width: 100%;
