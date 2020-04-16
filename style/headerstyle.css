@@ -1,0 +1,72 @@
+.header {
+  background-color: #f1f1f1;
+  margin: 0px;
+  padding: 2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  overflow: hidden;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-buttons {
+  margin: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 8px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  /* align-items: center; */
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  /* font-weight: bold; */
+  line-height: 25px;
+  display: flex;
+  float: right;
+  overflow: hidden;
+}
+.header-buttons a div {
+  align-items: center;
+  text-align: center;
+}
+
+.header-buttons a {
+  float: left;
+  text-decoration: none;
+  margin: 8px;
+  padding: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: black;
+  padding-top: 20px;
+  align-items: center;
+  text-align: center;
+  display: block;
+}
+
+.company-logo {
+  margin: 0px;
+  padding: 0px;
+  height: 72px;
+}
+
+.header-buttons a:hover {
+  background-color: #cdcdcd;
+  text-decoration: none;
+  color: black;
+}
+
+.header a img {
+  margin-top: 8px;
+  height: 52px;
+  margin-left: 8px;
+}
+
+.header-buttons .header-nav-button {
+  display: none;
+}

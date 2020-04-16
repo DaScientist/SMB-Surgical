@@ -1,0 +1,48 @@
+footer {
+  background-color: #0094d3;
+  width: 100%;
+  display: flex;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  padding-bottom: 12px;
+}
+
+.footer-logo {
+  height: 100px;
+  width: auto;
+}
+
+.social a {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-google-plus-g {
+  color: #dd4b39;
+}
+
+.fa-instagram {
+  color: #517fa8;
+}
+
+.fa-youtube {
+  color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+  color: #d5d5d5;
+}
