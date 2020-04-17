@@ -10,8 +10,8 @@ footer {
 }
 
 .footer-logo {
-  height: 100px;
-  width: auto;
+  height: auto;
+  width: 300px;
 }
 
 .social a {
@@ -45,4 +45,8 @@ footer {
 .fa-instagram:hover,
 .fa-youtube:hover {
   color: #d5d5d5;
+}
+
+.col-sm-12 {
+  padding-bottom: 32px;
 }

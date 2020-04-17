@@ -1,3 +1,7 @@
+body {
+  min-width: 350px;
+}
+
 .header {
   background-color: #f1f1f1;
   margin: 0px;
@@ -49,6 +53,11 @@
   display: block;
 }
 
+.header-buttons .active {
+  color: #f1f1f1;
+  background-color: #009de0;
+}
+
 .company-logo {
   margin: 0px;
   padding: 0px;
@@ -67,6 +76,48 @@
   margin-left: 8px;
 }
 
-.header-buttons .header-nav-button {
+.header-nav-button {
   display: none;
+}
+
+@media screen and (max-width: 808px) {
+  .topnav a {
+    display: none;
+    text-decoration: none;
+  }
+  .header-nav-button {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 808px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .header .header-nav-button {
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    float: right;
+    display: block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: #19baff;
+  }
+  .topnav.responsive a {
+    float: left;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+  }
+  .header-buttons.topnav.responsive {
+    float: left;
+    display: block;
+  }
+  .header {
+    display: block;
+  }
+  .company-logo {
+    float: left;
+  }
 }

@@ -5,6 +5,7 @@
 body {
   padding: 0px;
   margin: 0px;
+  min-width: 350px;
   background-color: #0094d3;
 }
 

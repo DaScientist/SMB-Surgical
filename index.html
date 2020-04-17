@@ -22,28 +22,31 @@
 
 <body id="body" style="background-color:aqua">
     <div class="header">
-        <a href="./index.php" class="company-logo">
+        <a href="../index.html" class="company-logo">
             <div>
-                <img src="./assets/SMB_edited.png" />
+                <img src="../assets/SMB_edited.png" />
             </div>
         </a>
-        <nav id="topNav" class="header-buttons">
-            <a href="./index.php" id="home">
+        <nav id="topNav" class="header-buttons topnav">
+            <a href="../index.html" id="home" class="active">
                 <div>Home</div>
             </a>
-            <a href="pages/Products.html" id="Products">
+            <a href="../pages/Products.html" id="Products">
                 <div>Products</div>
             </a>
-            <a href="pages/Aboutus.html" id="About">
+            <a href="../pages/Aboutus.html" id="About">
                 <div>About Us</div>
             </a>
-            <a href="pages/contactus.html" id="Contact-us">
+            <a href="../pages/contactus.html" id="Contact-us">
                 <div>Contact Us</div>
             </a>
-            <a href="pages/Login.php" id="Login">
+            <a href="../pages/login.html" id="Login">
                 <div>Login</div>
             </a>
         </nav>
+        <a href="javascript:void(0);" class="header-nav-button" onclick="dropNav()">
+            <i class="fas fa-2x fa-bars" style="color: white;"></i>
+        </a>
     </div>
     <div class="main">
         <div class="carousel-container-custom container">
@@ -85,7 +88,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-12">
-                    <div class="row col-sm-12">
+                    <div class="row col-sm-12 justify-content-center">
                         <img class="footer-logo" src="assets/SMB_edited_with_tagline.png" alt="Logo">
                     </div>
                     <div class="row social justify-content-center">
@@ -105,11 +108,11 @@
                     <h5>Vadodara, Gujarat,</h5>
                     <h5>India - 390019</h5>
                 </div>
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-4 col-sm-12 text-center">
                     <!-- Address -->
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14765.648864170133!2d73.220786!3d22.3002448!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xda68269a0a304015!2sSMB%20Surgical!5e0!3m2!1sen!2sin!4v1587057482377!5m2!1sen!2sin"
-                        width="350" height="200" frameborder="0" style="border:0;" allowfullscreen=""
+                        width="250" height="150" frameborder="0" style="border:0;" allowfullscreen=""
                         aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
@@ -121,16 +124,17 @@
 
     <!-- scripts are ahead -->
     <script>
-        var map;
-        function initMap() {
-            map = new google.maps.Map(document.getElementById('map'), {
-                center: { lat: -34.397, lng: 150.644 },
-                zoom: 8
-            });
+        function myFunction() {
+            var x = document.getElementById("topNav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
         }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
     <script src="./scripts/script.js"></script>
+    <script src="./scripts/headerScript.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
