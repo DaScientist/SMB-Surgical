@@ -61,6 +61,91 @@ body {
   width: 100%;
 }
 
+.caption-carousel-1 {
+  color: #ffffff;
+}
+.carousel-button-1 {
+  background-color: #ffffff;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 4px;
+  text-decoration: none;
+  color: #3e80e4;
+  padding: 8px 16px;
+}
+.carousel-button-1:hover {
+  background-color: #3e80e4;
+  text-decoration: none;
+  margin-top: 4px;
+  font-size: large;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+
+.caption-carousel-2 {
+  color: #78badb;
+  margin-bottom: 24px;
+}
+.carousel-button-2 {
+  background-color: #3e80e4;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+.carousel-button-2:hover {
+  background-color: #ffffff;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  color: #3e80e4;
+  padding: 8px 16px;
+}
+
+.caption-carousel-3 {
+  color: #a69371;
+}
+.carousel-button-3 {
+  background-color: #d9471a;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 100px;
+  text-decoration: none;
+  color: #d9a81a;
+  padding: 8px 16px;
+}
+.carousel-button-3:hover {
+  background-color: #d9a81a;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  color: #d9471a;
+  padding: 8px 16px;
+}
+
+.caption-carousel-4 {
+  color: #332a52;
+  margin: 0 0 48px 0;
+}
+.carousel-button-4 {
+  text-decoration: none;
+  background-color: #332a52;
+  font-size: large;
+  font-weight: bold;
+  color: azure;
+  padding: 8px 16px;
+}
+.carousel-button-4:hover {
+  text-decoration: none;
+  background-color: azure;
+  font-size: large;
+  font-weight: bold;
+  color: #332a52;
+  padding: 8px 16px;
+}
+
 @media screen and (max-width: 700px) {
   .main {
     margin-top: 72px;
