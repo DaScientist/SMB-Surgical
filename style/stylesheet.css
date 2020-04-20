@@ -19,12 +19,6 @@ body {
   height: 100%;
 }
 
-.custom-container {
-  height: 500px;
-  text-align: center;
-  justify-content: center;
-  vertical-align: middle;
-}
 .custom-1 {
   background-color: lightblue;
 }

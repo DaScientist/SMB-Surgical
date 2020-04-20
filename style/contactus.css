@@ -1,0 +1,12 @@
+.main {
+  margin: 72px 0 0 0;
+  padding: 0 20px;
+}
+#ff-compose {
+  margin: 20px 40px;
+}
+.ff-submit {
+  border-radius: 0;
+  width: 10%;
+  background-color: #009de0;
+}
