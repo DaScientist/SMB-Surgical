@@ -1,0 +1,51 @@
+.main {
+  margin: 80px 0 0 0;
+}
+
+.card-social a {
+  margin: 0px 8px 0 8px;
+}
+.card-social a i:hover {
+  color: #d5d5d5;
+}
+.fa-quora {
+  color: maroon;
+}
+.fa-github {
+  color: black;
+}
+.fa-linkedin {
+  color: #0e76a8;
+}
+
+.card-body {
+  display: block;
+}
+
+.card-horizontal {
+  max-width: 80%;
+  display: flex;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.card-vertical {
+  visibility: collapse;
+  display: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@media screen and (max-width: 540px) {
+  .card-social a {
+    margin: 0px 4px 0 4px;
+  }
+  .card-horizontal {
+    visibility: collapse;
+    display: none;
+  }
+  .card-vertical {
+    visibility: visible;
+    display: flex;
+  }
+}
