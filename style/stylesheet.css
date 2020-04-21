@@ -22,9 +22,7 @@ body {
 .custom-1 {
   background-color: lightblue;
 }
-.custom-2 {
-  background-color: lightseagreen;
-}
+
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
 #map {
@@ -140,6 +138,71 @@ body {
   color: #332a52;
   padding: 8px 16px;
 }
+
+.small-carousel-title {
+  margin-top: 4px;
+}
+
+.small-carousel-description {
+  height: 150px;
+  display: block;
+  padding: 0 8px;
+}
+
+.small-carousel-link {
+  margin-top: 20px;
+}
+
+/* Custom-2 */
+.custom-2 {
+  background-color: lightseagreen;
+  padding-top: 32px;
+}
+
+.dealer-list {
+  text-align: center;
+}
+
+.dealer-list img {
+  margin: 16px 16px;
+}
+
+.dealer-list .col-md-5 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#tynor-logo {
+  width: 150px;
+  height: 85px;
+}
+
+#satnam-logo {
+  width: 185px;
+  height: 85px;
+}
+
+#karma-logo {
+  width: 300px;
+  height: 85px;
+}
+
+#denis-logo {
+  width: 100px;
+  height: 100px;
+}
+
+#skk-logo {
+  width: 160px;
+  height: 132px;
+}
+
+/* .small-carousel-link {
+} */
 
 @media screen and (max-width: 700px) {
   .main {
