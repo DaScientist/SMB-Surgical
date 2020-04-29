@@ -3,3 +3,22 @@
   margin-top: 72px;
   background-color: #adadad;
 }
+
+.container {
+  padding: 0;
+  max-width: 100%;
+}
+
+nav img {
+  width: 32px;
+  height: 32px;
+  margin-right: 4px;
+}
+
+nav {
+  font-size: 20px;
+}
+
+.nav-item {
+  color: black;
+}
