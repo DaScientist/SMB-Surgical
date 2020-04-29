@@ -1,7 +1,13 @@
 .main {
   height: 500px;
   margin-top: 72px;
-  background-color: #adadad;
+  background-color: #e9ecef;
+  --bg1-color: #dadada;
+}
+
+.c-title {
+  padding: 4px 0;
+  border-bottom: 1px solid rgb(39, 38, 38);
 }
 
 .container {
@@ -21,4 +27,12 @@ nav {
 
 .nav-item {
   color: black;
+}
+
+.section-1 {
+  background-color: var(--bg1-color);
+}
+
+.section-3 {
+  background-color: var(--bg1-color);
 }
