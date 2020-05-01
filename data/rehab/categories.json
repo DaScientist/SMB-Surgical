@@ -6,7 +6,171 @@
         {
           "product-name": "",
           "product-description": "",
-          "product-image-url": ""
+          "product-specs": [
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            }
+          ],
+          "product-image-url": "",
+          "company": [{ "name": "" }]
+        }
+      ]
+    },
+    {
+      "name": "Walker",
+      "items:": [
+        {
+          "product-name": "",
+          "product-description": "",
+          "product-specs": [
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            }
+          ],
+          "product-image-url": "",
+          "company": [{ "name": "" }]
+        }
+      ]
+    },
+    {
+      "name": "Walking Stick",
+      "items:": [
+        {
+          "product-name": "",
+          "product-description": "",
+          "product-specs": [
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            }
+          ],
+          "product-image-url": "",
+          "company": [{ "name": "" }]
+        }
+      ]
+    },
+    {
+      "name": "Commode tools",
+      "items:": [
+        {
+          "product-name": "",
+          "product-description": "",
+          "product-specs": [
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            }
+          ],
+          "product-image-url": "",
+          "company": [{ "name": "" }]
+        }
+      ]
+    },
+    {
+      "name": "Rehabilitation Bed",
+      "items:": [
+        {
+          "product-name": "",
+          "product-description": "",
+          "product-specs": [
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            }
+          ],
+          "product-image-url": "",
+          "company": [{ "name": "" }]
+        }
+      ]
+    },
+    {
+      "name": "Healthcare devices",
+      "items:": [
+        {
+          "product-name": "",
+          "product-description": "",
+          "product-specs": [
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            }
+          ],
+          "product-image-url": "",
+          "company": [{ "name": "" }]
         }
       ]
     }
