@@ -62,6 +62,30 @@
       "name": "Walking Stick",
       "items:": [
         {
+          "product-name": "Walking Stick (Soft Top Handle)",
+          "product-description": "Tynor Walking Stick is a general purpose walking aid, which can be used by geriatric, weak patients, or can be used as post-operative rehabilitation aid. Height adjustment feature ensures proper load bearing, comfort and correct posture. Available in silver, black and golden color. \n\nComfortable hand grip. \nStrong and durable. \nAesthetically pleasing. \nEasy height adjustment. \nAnti-slip pods",
+          "product-specs": [
+            {
+              "title": "Handle",
+              "description": "Extremely comfortable, ensures strong grip with uniform load bearing. Safety Lanyard allows free use of hand."
+            },
+            {
+              "title": "TPE Pod",
+              "description": "Excellent traction, high wear resistance and high resilience."
+            },
+            {
+              "title": "Max/Min adjustable height",
+              "description": "780/742±5 mm"
+            },
+            {
+              "title": "Weight bearing capacity",
+              "description": "110 Kg"
+            }
+          ],
+          "product-image-url": "http://tynorindia.com/wp-content/uploads/2017/06/1-114.jpg",
+          "company": [{ "name": "" }]
+        },
+        {
           "product-name": "",
           "product-description": "",
           "product-specs": [
@@ -83,7 +107,11 @@
             }
           ],
           "product-image-url": "",
-          "company": [{ "name": "" }]
+          "company": [
+            {
+              "name": ""
+            }
+          ]
         }
       ]
     },
