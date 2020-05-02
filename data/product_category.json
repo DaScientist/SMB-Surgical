@@ -1,17 +1,20 @@
 {
-    "categories":[
-        {
-            "name":"Orthopaedics",
-            "link":"./ortho/categories.json"
-        },{
-            "name":"Rehabilitation Aids",
-            "link":"./rehab/categories.json"
-        },{
-            "name":"Healthcare Devices",
-            "link":"./healthcare/categories.json"
-        },{
-            "name":"Surgical equipments",
-            "link":"./surgical/categories.json"
-        }
-    ]
+  "categories": [
+    {
+      "name": "Orthopaedics",
+      "link": "../data/ortho/categories.json"
+    },
+    {
+      "name": "Rehabilitation Aids",
+      "link": "../data/rehab/categories.json"
+    },
+    {
+      "name": "Healthcare Devices",
+      "link": "../data/healthcare/categories.json"
+    },
+    {
+      "name": "Surgical equipments",
+      "link": "../data/surgical/categories.json"
+    }
+  ]
 }

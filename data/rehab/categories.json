@@ -2,30 +2,146 @@
   "categories": [
     {
       "name": "WheelChair",
-      "items:": [
+      "items": [
         {
-          "product-name": "",
-          "product-description": "",
+          "product-name": "Ergo Lite 1",
+          "product-description": "Weighing only 8.5kg, the Ergo Lite (KM-2501) is Karma’s lightest attendant-propelled wheelchair. The compact design is ideal for wheelchair users who need a simple, lightweight wheelchair for short trips. It is equipped with Karma’s unique S-Ergo seating system.",
           "product-specs": [
             {
-              "title": "",
-              "description": ""
+              "title": "Seat Width* Seat Depth",
+              "description": "16*17 / 18*17"
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Seat Dimensions",
+              "description": "45 x 42 x 48"
             },
             {
-              "title": "",
-              "description": ""
-            },
-            {
-              "title": "",
-              "description": ""
+              "title": "Max. User Weight (kg)",
+              "description": "100"
             }
           ],
-          "product-image-url": "",
-          "company": [{ "name": "" }]
+          "product-image-url": "https://karmahealthcare.com/wp-content/uploads/2020/01/KM_2501_1050x960_firstproduct_Mobile-1.png",
+          "company": [{ "name": "Karma" }]
+        },
+        {
+          "product-name": "Ergo Lite 2",
+          "product-description": "Weighing only 8.5kg, the Ergo Lite (KM-2501) is Karma’s lightest attendant-propelled wheelchair. The compact design is ideal for wheelchair users who need a simple, lightweight wheelchair for short trips. It is equipped with Karma’s unique S-Ergo seating system.",
+          "product-specs": [
+            {
+              "title": "Seat Width* Seat Depth",
+              "description": "16*17 / 18*17"
+            },
+            {
+              "title": "Seat Dimensions",
+              "description": "45 x 42 x 48"
+            },
+            {
+              "title": "Max. User Weight (kg)",
+              "description": "100"
+            }
+          ],
+          "product-image-url": "https://karmahealthcare.com/wp-content/uploads/2020/01/KM_2501_1050x960_firstproduct_Mobile-1.png",
+          "company": [
+            {
+              "name": "Karma"
+            }
+          ]
+        },
+        {
+          "product-name": "Ergo Lite 3",
+          "product-description": "Weighing only 8.5kg, the Ergo Lite (KM-2501) is Karma’s lightest attendant-propelled wheelchair. The compact design is ideal for wheelchair users who need a simple, lightweight wheelchair for short trips. It is equipped with Karma’s unique S-Ergo seating system.",
+          "product-specs": [
+            {
+              "title": "Seat Width* Seat Depth",
+              "description": "16*17 / 18*17"
+            },
+            {
+              "title": "Seat Dimensions",
+              "description": "45 x 42 x 48"
+            },
+            {
+              "title": "Max. User Weight (kg)",
+              "description": "100"
+            }
+          ],
+          "product-image-url": "https://karmahealthcare.com/wp-content/uploads/2020/01/KM_2501_1050x960_firstproduct_Mobile-1.png",
+          "company": [
+            {
+              "name": "Karma"
+            }
+          ]
+        },
+        {
+          "product-name": "Ergo Lite 4",
+          "product-description": "Weighing only 8.5kg, the Ergo Lite (KM-2501) is Karma’s lightest attendant-propelled wheelchair. The compact design is ideal for wheelchair users who need a simple, lightweight wheelchair for short trips. It is equipped with Karma’s unique S-Ergo seating system.",
+          "product-specs": [
+            {
+              "title": "Seat Width* Seat Depth",
+              "description": "16*17 / 18*17"
+            },
+            {
+              "title": "Seat Dimensions",
+              "description": "45 x 42 x 48"
+            },
+            {
+              "title": "Max. User Weight (kg)",
+              "description": "100"
+            }
+          ],
+          "product-image-url": "https://karmahealthcare.com/wp-content/uploads/2020/01/KM_2501_1050x960_firstproduct_Mobile-1.png",
+          "company": [
+            {
+              "name": "Karma"
+            }
+          ]
+        },
+        {
+          "product-name": "Ergo Lite 5",
+          "product-description": "Weighing only 8.5kg, the Ergo Lite (KM-2501) is Karma’s lightest attendant-propelled wheelchair. The compact design is ideal for wheelchair users who need a simple, lightweight wheelchair for short trips. It is equipped with Karma’s unique S-Ergo seating system.",
+          "product-specs": [
+            {
+              "title": "Seat Width* Seat Depth",
+              "description": "16*17 / 18*17"
+            },
+            {
+              "title": "Seat Dimensions",
+              "description": "45 x 42 x 48"
+            },
+            {
+              "title": "Max. User Weight (kg)",
+              "description": "100"
+            }
+          ],
+          "product-image-url": "https://karmahealthcare.com/wp-content/uploads/2020/01/KM_2501_1050x960_firstproduct_Mobile-1.png",
+          "company": [
+            {
+              "name": "Karma"
+            }
+          ]
+        },
+        {
+          "product-name": "Ergo Lite 6",
+          "product-description": "Weighing only 8.5kg, the Ergo Lite (KM-2501) is Karma’s lightest attendant-propelled wheelchair. The compact design is ideal for wheelchair users who need a simple, lightweight wheelchair for short trips. It is equipped with Karma’s unique S-Ergo seating system.",
+          "product-specs": [
+            {
+              "title": "Seat Width* Seat Depth",
+              "description": "16*17 / 18*17"
+            },
+            {
+              "title": "Seat Dimensions",
+              "description": "45 x 42 x 48"
+            },
+            {
+              "title": "Max. User Weight (kg)",
+              "description": "100"
+            }
+          ],
+          "product-image-url": "https://karmahealthcare.com/wp-content/uploads/2020/01/KM_2501_1050x960_firstproduct_Mobile-1.png",
+          "company": [
+            {
+              "name": "Karma"
+            }
+          ]
         }
       ]
     },
@@ -33,28 +149,180 @@
       "name": "Walker",
       "items:": [
         {
-          "product-name": "",
-          "product-description": "",
+          "product-name": "Walker Invalid’s Heavy Duty – All Pods",
+          "product-description": "Walkers are most helpful for ambulating old age, weak or patients recovering from injury or illness. Ideal for users with limited strength or requiring maximum stabilization.",
           "product-specs": [
             {
-              "title": "",
-              "description": ""
+              "title": "Frame",
+              "description": "Steel frame"
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Coating",
+              "description": "Nickel chrome"
             },
             {
-              "title": "",
-              "description": ""
+              "title": "TPE Pods",
+              "description": "High wear resistance and highly resilient"
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Hand grips",
+              "description": "Foam Hand grips"
+            },
+            {
+              "title": "Weight/ Weight bearing capacity",
+              "description": "3.3 Kg / 125 Kg"
             }
           ],
-          "product-image-url": "",
-          "company": [{ "name": "" }]
+          "product-image-url": "http://tynorindia.com/wp-content/uploads/2017/06/1-111.jpg",
+          "company": [{ "name": "Tynor" }]
+        },
+        {
+          "product-name": "Walker Invalid’s Heavy Duty – All Pods",
+          "product-description": "Walkers are most helpful for ambulating old age, weak or patients recovering from injury or illness. Ideal for users with limited strength or requiring maximum stabilization.",
+          "product-specs": [
+            {
+              "title": "Frame",
+              "description": "Steel frame"
+            },
+            {
+              "title": "Coating",
+              "description": "Nickel chrome"
+            },
+            {
+              "title": "TPE Pods",
+              "description": "High wear resistance and highly resilient"
+            },
+            {
+              "title": "Hand grips",
+              "description": "Foam Hand grips"
+            },
+            {
+              "title": "Weight/ Weight bearing capacity",
+              "description": "3.3 Kg / 125 Kg"
+            }
+          ],
+          "product-image-url": "http://tynorindia.com/wp-content/uploads/2017/06/1-111.jpg",
+          "company": [
+            {
+              "name": "Tynor"
+            }
+          ]
+        },
+        {
+          "product-name": "Walker Invalid’s Heavy Duty – All Pods",
+          "product-description": "Walkers are most helpful for ambulating old age, weak or patients recovering from injury or illness. Ideal for users with limited strength or requiring maximum stabilization.",
+          "product-specs": [
+            {
+              "title": "Frame",
+              "description": "Steel frame"
+            },
+            {
+              "title": "Coating",
+              "description": "Nickel chrome"
+            },
+            {
+              "title": "TPE Pods",
+              "description": "High wear resistance and highly resilient"
+            },
+            {
+              "title": "Hand grips",
+              "description": "Foam Hand grips"
+            },
+            {
+              "title": "Weight/ Weight bearing capacity",
+              "description": "3.3 Kg / 125 Kg"
+            }
+          ],
+          "product-image-url": "http://tynorindia.com/wp-content/uploads/2017/06/1-111.jpg",
+          "company": [
+            {
+              "name": "Tynor"
+            }
+          ]
+        },
+        {
+          "product-name": "WK-80",
+          "product-description": "Karma lightweight aluminum folding walker features the eye-catching appearance and two-in-one fixed and reciprocal functions. Our walker series have a wide variety of choices for every individual’s need.",
+          "product-specs": [
+            {
+              "title": "Frame",
+              "description": "Aluminum folding frame"
+            },
+            {
+              "title": "TPE Pods",
+              "description": "High wear resistance and highly resilient"
+            },
+            {
+              "title": "Hand grips",
+              "description": "Ergonomic Hand grips"
+            },
+            {
+              "title": "Weight/ Weight bearing capacity",
+              "description": "2.7kg / 120kg"
+            }
+          ],
+          "product-image-url": "https://karmahealthcare.com/wp-content/uploads/2018/10/WK300-1050x960.png",
+          "company": [
+            {
+              "name": "Karma"
+            }
+          ]
+        },
+        {
+          "product-name": "WK-80",
+          "product-description": "Karma lightweight aluminum folding walker features the eye-catching appearance and two-in-one fixed and reciprocal functions. Our walker series have a wide variety of choices for every individual’s need.",
+          "product-specs": [
+            {
+              "title": "Frame",
+              "description": "Aluminum folding frame"
+            },
+            {
+              "title": "TPE Pods",
+              "description": "High wear resistance and highly resilient"
+            },
+            {
+              "title": "Hand grips",
+              "description": "Ergonomic Hand grips"
+            },
+            {
+              "title": "Weight/ Weight bearing capacity",
+              "description": "2.7kg / 120kg"
+            }
+          ],
+          "product-image-url": "https://karmahealthcare.com/wp-content/uploads/2018/10/WK300-1050x960.png",
+          "company": [
+            {
+              "name": "Karma"
+            }
+          ]
+        },
+        {
+          "product-name": "WK-80",
+          "product-description": "Karma lightweight aluminum folding walker features the eye-catching appearance and two-in-one fixed and reciprocal functions. Our walker series have a wide variety of choices for every individual’s need.",
+          "product-specs": [
+            {
+              "title": "Frame",
+              "description": "Aluminum folding frame"
+            },
+            {
+              "title": "TPE Pods",
+              "description": "High wear resistance and highly resilient"
+            },
+            {
+              "title": "Hand grips",
+              "description": "Ergonomic Hand grips"
+            },
+            {
+              "title": "Weight/ Weight bearing capacity",
+              "description": "2.7kg / 120kg"
+            }
+          ],
+          "product-image-url": "https://karmahealthcare.com/wp-content/uploads/2018/10/WK300-1050x960.png",
+          "company": [
+            {
+              "name": "Karma"
+            }
+          ]
         }
       ]
     },
@@ -62,7 +330,7 @@
       "name": "Walking Stick",
       "items:": [
         {
-          "product-name": "Walking Stick (Soft Top Handle)",
+          "product-name": "Walking Stick (Soft Top Handle) 1",
           "product-description": "Tynor Walking Stick is a general purpose walking aid, which can be used by geriatric, weak patients, or can be used as post-operative rehabilitation aid. Height adjustment feature ensures proper load bearing, comfort and correct posture. Available in silver, black and golden color. \n\nComfortable hand grip. \nStrong and durable. \nAesthetically pleasing. \nEasy height adjustment. \nAnti-slip pods",
           "product-specs": [
             {
@@ -83,33 +351,173 @@
             }
           ],
           "product-image-url": "http://tynorindia.com/wp-content/uploads/2017/06/1-114.jpg",
-          "company": [{ "name": "" }]
+          "company": [{ "name": "Tynor" }]
         },
         {
-          "product-name": "",
-          "product-description": "",
+          "product-name": "Walking Stick (Soft Top Handle) 2",
+          "product-description": "Tynor Walking Stick is a general purpose walking aid, which can be used by geriatric, weak patients, or can be used as post-operative rehabilitation aid. Height adjustment feature ensures proper load bearing, comfort and correct posture. Available in silver, black and golden color. \n\nComfortable hand grip. \nStrong and durable. \nAesthetically pleasing. \nEasy height adjustment. \nAnti-slip pods",
           "product-specs": [
             {
-              "title": "",
-              "description": ""
+              "title": "Handle",
+              "description": "Extremely comfortable, ensures strong grip with uniform load bearing. Safety Lanyard allows free use of hand."
             },
             {
-              "title": "",
-              "description": ""
+              "title": "TPE Pod",
+              "description": "Excellent traction, high wear resistance and high resilience."
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Max/Min adjustable height",
+              "description": "780/742±5 mm"
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Weight bearing capacity",
+              "description": "110 Kg"
             }
           ],
-          "product-image-url": "",
+          "product-image-url": "http://tynorindia.com/wp-content/uploads/2017/06/1-114.jpg",
           "company": [
             {
-              "name": ""
+              "name": "Tynor"
+            }
+          ]
+        },
+        {
+          "product-name": "Walking Stick (Soft Top Handle) 3",
+          "product-description": "Tynor Walking Stick is a general purpose walking aid, which can be used by geriatric, weak patients, or can be used as post-operative rehabilitation aid. Height adjustment feature ensures proper load bearing, comfort and correct posture. Available in silver, black and golden color. \n\nComfortable hand grip. \nStrong and durable. \nAesthetically pleasing. \nEasy height adjustment. \nAnti-slip pods",
+          "product-specs": [
+            {
+              "title": "Handle",
+              "description": "Extremely comfortable, ensures strong grip with uniform load bearing. Safety Lanyard allows free use of hand."
+            },
+            {
+              "title": "TPE Pod",
+              "description": "Excellent traction, high wear resistance and high resilience."
+            },
+            {
+              "title": "Max/Min adjustable height",
+              "description": "780/742±5 mm"
+            },
+            {
+              "title": "Weight bearing capacity",
+              "description": "110 Kg"
+            }
+          ],
+          "product-image-url": "http://tynorindia.com/wp-content/uploads/2017/06/1-114.jpg",
+          "company": [
+            {
+              "name": "Tynor"
+            }
+          ]
+        },
+        {
+          "product-name": "Walking Stick (Soft Top Handle) 4",
+          "product-description": "Tynor Walking Stick is a general purpose walking aid, which can be used by geriatric, weak patients, or can be used as post-operative rehabilitation aid. Height adjustment feature ensures proper load bearing, comfort and correct posture. Available in silver, black and golden color. \n\nComfortable hand grip. \nStrong and durable. \nAesthetically pleasing. \nEasy height adjustment. \nAnti-slip pods",
+          "product-specs": [
+            {
+              "title": "Handle",
+              "description": "Extremely comfortable, ensures strong grip with uniform load bearing. Safety Lanyard allows free use of hand."
+            },
+            {
+              "title": "TPE Pod",
+              "description": "Excellent traction, high wear resistance and high resilience."
+            },
+            {
+              "title": "Max/Min adjustable height",
+              "description": "780/742±5 mm"
+            },
+            {
+              "title": "Weight bearing capacity",
+              "description": "110 Kg"
+            }
+          ],
+          "product-image-url": "http://tynorindia.com/wp-content/uploads/2017/06/1-114.jpg",
+          "company": [
+            {
+              "name": "Tynor"
+            }
+          ]
+        },
+        {
+          "product-name": "Walking Stick (Soft Top Handle) 5",
+          "product-description": "Tynor Walking Stick is a general purpose walking aid, which can be used by geriatric, weak patients, or can be used as post-operative rehabilitation aid. Height adjustment feature ensures proper load bearing, comfort and correct posture. Available in silver, black and golden color. \n\nComfortable hand grip. \nStrong and durable. \nAesthetically pleasing. \nEasy height adjustment. \nAnti-slip pods",
+          "product-specs": [
+            {
+              "title": "Handle",
+              "description": "Extremely comfortable, ensures strong grip with uniform load bearing. Safety Lanyard allows free use of hand."
+            },
+            {
+              "title": "TPE Pod",
+              "description": "Excellent traction, high wear resistance and high resilience."
+            },
+            {
+              "title": "Max/Min adjustable height",
+              "description": "780/742±5 mm"
+            },
+            {
+              "title": "Weight bearing capacity",
+              "description": "110 Kg"
+            }
+          ],
+          "product-image-url": "http://tynorindia.com/wp-content/uploads/2017/06/1-114.jpg",
+          "company": [
+            {
+              "name": "Tynor"
+            }
+          ]
+        },
+        {
+          "product-name": "Walking Stick (Soft Top Handle) 6",
+          "product-description": "Tynor Walking Stick is a general purpose walking aid, which can be used by geriatric, weak patients, or can be used as post-operative rehabilitation aid. Height adjustment feature ensures proper load bearing, comfort and correct posture. Available in silver, black and golden color. \n\nComfortable hand grip. \nStrong and durable. \nAesthetically pleasing. \nEasy height adjustment. \nAnti-slip pods",
+          "product-specs": [
+            {
+              "title": "Handle",
+              "description": "Extremely comfortable, ensures strong grip with uniform load bearing. Safety Lanyard allows free use of hand."
+            },
+            {
+              "title": "TPE Pod",
+              "description": "Excellent traction, high wear resistance and high resilience."
+            },
+            {
+              "title": "Max/Min adjustable height",
+              "description": "780/742±5 mm"
+            },
+            {
+              "title": "Weight bearing capacity",
+              "description": "110 Kg"
+            }
+          ],
+          "product-image-url": "http://tynorindia.com/wp-content/uploads/2017/06/1-114.jpg",
+          "company": [
+            {
+              "name": "Tynor"
+            }
+          ]
+        },
+        {
+          "product-name": "Walking Stick (Soft Top Handle) 7",
+          "product-description": "Tynor Walking Stick is a general purpose walking aid, which can be used by geriatric, weak patients, or can be used as post-operative rehabilitation aid. Height adjustment feature ensures proper load bearing, comfort and correct posture. Available in silver, black and golden color. \n\nComfortable hand grip. \nStrong and durable. \nAesthetically pleasing. \nEasy height adjustment. \nAnti-slip pods",
+          "product-specs": [
+            {
+              "title": "Handle",
+              "description": "Extremely comfortable, ensures strong grip with uniform load bearing. Safety Lanyard allows free use of hand."
+            },
+            {
+              "title": "TPE Pod",
+              "description": "Excellent traction, high wear resistance and high resilience."
+            },
+            {
+              "title": "Max/Min adjustable height",
+              "description": "780/742±5 mm"
+            },
+            {
+              "title": "Weight bearing capacity",
+              "description": "110 Kg"
+            }
+          ],
+          "product-image-url": "http://tynorindia.com/wp-content/uploads/2017/06/1-114.jpg",
+          "company": [
+            {
+              "name": "Tynor"
             }
           ]
         }
