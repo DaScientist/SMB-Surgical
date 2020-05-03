@@ -4,7 +4,6 @@
       "name": "WheelChair",
       "items": [
         {
-          "product-id": "1",
           "product-name": "Ergo Lite 1",
           "product-description": "Weighing only 8.5kg, the Ergo Lite (KM-2501) is Karma’s lightest attendant-propelled wheelchair. The compact design is ideal for wheelchair users who need a simple, lightweight wheelchair for short trips. It is equipped with Karma’s unique S-Ergo seating system.",
           "product-specs": [
@@ -25,7 +24,6 @@
           "company": [{ "name": "Karma" }]
         },
         {
-          "product-id": "2",
           "product-name": "Ergo Lite 2",
           "product-description": "Weighing only 8.5kg, the Ergo Lite (KM-2501) is Karma’s lightest attendant-propelled wheelchair. The compact design is ideal for wheelchair users who need a simple, lightweight wheelchair for short trips. It is equipped with Karma’s unique S-Ergo seating system.",
           "product-specs": [
@@ -50,7 +48,6 @@
           ]
         },
         {
-          "product-id": "3",
           "product-name": "Ergo Lite 3",
           "product-description": "Weighing only 8.5kg, the Ergo Lite (KM-2501) is Karma’s lightest attendant-propelled wheelchair. The compact design is ideal for wheelchair users who need a simple, lightweight wheelchair for short trips. It is equipped with Karma’s unique S-Ergo seating system.",
           "product-specs": [
@@ -75,7 +72,6 @@
           ]
         },
         {
-          "product-id": "4",
           "product-name": "Ergo Lite 4",
           "product-description": "Weighing only 8.5kg, the Ergo Lite (KM-2501) is Karma’s lightest attendant-propelled wheelchair. The compact design is ideal for wheelchair users who need a simple, lightweight wheelchair for short trips. It is equipped with Karma’s unique S-Ergo seating system.",
           "product-specs": [
@@ -100,7 +96,6 @@
           ]
         },
         {
-          "product-id": "5",
           "product-name": "Ergo Lite 5",
           "product-description": "Weighing only 8.5kg, the Ergo Lite (KM-2501) is Karma’s lightest attendant-propelled wheelchair. The compact design is ideal for wheelchair users who need a simple, lightweight wheelchair for short trips. It is equipped with Karma’s unique S-Ergo seating system.",
           "product-specs": [
@@ -125,7 +120,6 @@
           ]
         },
         {
-          "product-id": "6",
           "product-name": "Ergo Lite 6",
           "product-description": "Weighing only 8.5kg, the Ergo Lite (KM-2501) is Karma’s lightest attendant-propelled wheelchair. The compact design is ideal for wheelchair users who need a simple, lightweight wheelchair for short trips. It is equipped with Karma’s unique S-Ergo seating system.",
           "product-specs": [
@@ -153,7 +147,7 @@
     },
     {
       "name": "Walker",
-      "items": [
+      "items:": [
         {
           "product-name": "Walker Invalid’s Heavy Duty – All Pods",
           "product-description": "Walkers are most helpful for ambulating old age, weak or patients recovering from injury or illness. Ideal for users with limited strength or requiring maximum stabilization.",
@@ -334,7 +328,7 @@
     },
     {
       "name": "Walking Stick",
-      "items": [
+      "items:": [
         {
           "product-name": "Walking Stick (Soft Top Handle) 1",
           "product-description": "Tynor Walking Stick is a general purpose walking aid, which can be used by geriatric, weak patients, or can be used as post-operative rehabilitation aid. Height adjustment feature ensures proper load bearing, comfort and correct posture. Available in silver, black and golden color. \n\nComfortable hand grip. \nStrong and durable. \nAesthetically pleasing. \nEasy height adjustment. \nAnti-slip pods",
@@ -530,8 +524,8 @@
       ]
     },
     {
-      "name": "Commode Tools",
-      "items": [
+      "name": "Commode tools",
+      "items:": [
         {
           "product-name": "",
           "product-description": "",
@@ -560,7 +554,7 @@
     },
     {
       "name": "Rehabilitation Bed",
-      "items": [
+      "items:": [
         {
           "product-name": "",
           "product-description": "",
@@ -588,8 +582,8 @@
       ]
     },
     {
-      "name": "Healthcare Devices",
-      "items": [
+      "name": "Healthcare devices",
+      "items:": [
         {
           "product-name": "",
           "product-description": "",

@@ -46,7 +46,7 @@ nav {
   padding: 12px 0 0 0;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 700px) {
   #nav-rehab-tab span {
     display: none;
   }
