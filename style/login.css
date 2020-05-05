@@ -5,11 +5,18 @@ body {
 }
 
 .jumbotron {
-  background-image: url("../assets/bg-count-downs.jpg");
+  background-color: rgba(0, 0, 0, 0);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  /* opacity: 0; */
   height: 100%;
   width: 100%;
+}
+.container {
+  /* opacity: 1; */
+  padding: 32px 0 0 0;
+  margin: 0;
+  max-width: 100%;
 }
 
 .smb-logo {
