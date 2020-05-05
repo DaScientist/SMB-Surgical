@@ -13,6 +13,7 @@
 
 .jumbotron {
   margin: 0;
+  padding-top: 8px;
 }
 
 .container {
@@ -50,4 +51,9 @@ nav {
   #nav-rehab-tab span {
     display: none;
   }
+}
+
+.card-img-top {
+  height: 240px;
+  width: 100%;
 }

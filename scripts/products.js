@@ -28,7 +28,7 @@ fetch("../data/product_category.json")
         // For WheelChair
         products = json;
         let wheelchairContent = document.querySelector(
-          "#nav-rehab-wheelchair .container .row"
+          "#nav-rehab-wheelchair .container .row .card-group"
         );
         console.log(wheelchairContent.innerHTML);
         let wheelchairs = json.categories.find(
@@ -48,7 +48,7 @@ fetch("../data/product_category.json")
         wheelchairContent.innerHTML = cards;
         // for Walker
         let WalkerContent = document.querySelector(
-          "#nav-rehab-walker .container .row"
+          "#nav-rehab-walker .container .row .card-group"
         );
         console.log(WalkerContent.innerHTML);
         let walkers = json.categories.find(
@@ -68,7 +68,7 @@ fetch("../data/product_category.json")
         WalkerContent.innerHTML = cards;
         // for Walking Sticks
         let WalkingSticksContent = document.querySelector(
-          "#nav-rehab-walking-stick .container .row"
+          "#nav-rehab-walking-stick .container .row .card-group"
         );
         console.log(WalkingSticksContent.innerHTML);
         let walkingSticks = json.categories.find(
@@ -88,7 +88,7 @@ fetch("../data/product_category.json")
         WalkingSticksContent.innerHTML = cards;
         // for Commode tools
         let CommodeContent = document.querySelector(
-          "#nav-rehab-commode .container .row"
+          "#nav-rehab-commode .container .row .card-group"
         );
         console.log(CommodeContent.innerHTML);
         let commode = json.categories.find(
@@ -108,7 +108,7 @@ fetch("../data/product_category.json")
         CommodeContent.innerHTML = cards;
         // for Beds
         let BedContent = document.querySelector(
-          "#nav-rehab-bed .container .row"
+          "#nav-rehab-bed .container .row .card-group"
         );
         console.log(BedContent.innerHTML);
         let Bed = json.categories.find(
@@ -128,7 +128,7 @@ fetch("../data/product_category.json")
         BedContent.innerHTML = cards;
         // for healthcare
         let healthcareContent = document.querySelector(
-          "#nav-rehab-healthcare .container .row"
+          "#nav-rehab-healthcare .container .row .card-group"
         );
         console.log(healthcareContent.innerHTML);
         let healthcare = json.categories.find(
