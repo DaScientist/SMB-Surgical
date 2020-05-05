@@ -460,29 +460,145 @@
       "name": "Rehabilitation Bed",
       "items": [
         {
-          "product-id": "",
-          "product-name": "",
-          "product-description": "",
+          "product-id": "1",
+          "product-name": "Med-Aire Plus 10\" Mattress Replacement System",
+          "product-description": "Med-Aire Plus 10\" Mattress Replacement System supports patients up to 750 lbs. Mattress can be used as static or alternating pressure device. LED and audible alarm activate when pressure falls below 5 mmHG. \"Cell in a cell\" design provides additional support in the event of power failure. Height volume pump produces eight liters of air per minute. Mattress features 20 air cells, nine with micro laser holes. Stretch-nylon construction. Removable zippered cover. CPR emergency valve for quick air release. Waterproof cover.",
           "product-specs": [
             {
-              "title": "",
-              "description": ""
+              "title": "Mattress dimensions",
+              "description": "80\" x 36\" x 8\""
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Poser",
+              "description": "110 VAC/60Hz"
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Pressure range",
+              "description": "30-60 mmHg"
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Air volume",
+              "description": "8 liters/minute"
+            },
+            {
+              "title": "Cycle time",
+              "description": "10 min"
             }
           ],
-          "product-image-url": "",
-          "company": [{ "name": "" }]
+          "product-image-url": "https://www.alimed.com/_resources/cache/images/product/77818_850x480-pad.jpg",
+          "company": [{ "name": "Drive Medical" }]
+        },
+        {
+          "product-id": "2",
+          "product-name": "EHOB® WAFFLE® Mattress Overlay",
+          "product-description": "EHOB® WAFFLE® Mattress Overlay  Pressure relief and comfortable treatment through Stage 4 pressure injuries. Won’t “bottom out”. Air venting holes dissipate heat and moisture. Hand wells allow for transferring patients up to 600 lbs. Adjustable straps secure mattress to bed. Hand pump included.",
+          "product-specs": [
+            {
+              "title": "Overlay dimensions",
+              "description": "30\"W x 75\"L x 3\"H"
+            },
+            {
+              "title": "Capacity",
+              "description": "600 lb"
+            },
+            {
+              "title": "Warranty",
+              "description": "3 month"
+            }
+          ],
+          "product-image-url": "https://www.alimed.com/_resources/cache/images/product/10865_850x480-pad.jpg",
+          "company": [
+            {
+              "name": "WAFFLE"
+            }
+          ]
+        },
+        {
+          "product-id": "3",
+          "product-name": "Medical Air Bed (Anti Decubitus Air Matress)",
+          "product-description": "Alternating pressure relief bubble pad system with pump (A unique bed sores therapy system) The bubble pad style offers patients more benefit than linear style pad because the bubble design allows more touch points offering a superior therapy system. Therapy for stage I pressure Very easy to operate Adjustable comfort range with pressure adjustable control knob Adjustable hangers of pump to suit any kind of hospital bed frames Medical grade non-toxic bubble pad mattress with unique design Ultra quiet air pump operation / maintenance free",
+          "product-specs": [
+            {
+              "title": "Tear",
+              "description": "Resistant"
+            },
+            {
+              "title": "No. of Bubble cells",
+              "description": "130 individual bubble cells"
+            },
+            {
+              "title": "Pump",
+              "description": "6-7 LPM (Liters per Minute) pump"
+            },
+            {
+              "title": "Cycle time",
+              "description": "6 min"
+            }
+          ],
+          "product-image-url": "http://www.ezlifehealthcare.com/wp-content/uploads/2018/11/pump-and-mattress-v2.jpg",
+          "company": [
+            {
+              "name": "Ez-life"
+            }
+          ]
+        },
+        {
+          "product-id": "4",
+          "product-name": "Water Bed",
+          "product-description": "Waterbed can bring relief from pain and provide a cool and soothing sensation. Product features Medical Water Bed (Water mattress). This bed is used by the patients who are to lie on the bed for a long time. The patient with broken legs, waist, coma, cerebral attack, heart patient, arthritis patient who cannot move etc. use. As constantly lying in the same position results in pressure and abrasion in particular places of the body for a long time gives rise to the possibilities of developing sores in those parts of the body. By using this bed the possibility of developing bed sores is eliminated. Waterbed can bring relief from pain and provide a cool and soothing sensation. It is a single textured rubberized fabric having 3 compartments. It is completely leak proof, comfortable, hygienic and durable.",
+          "product-specs": [
+            {
+              "title": "Design",
+              "description": "Prevents pressure sores for patients spending long hours on bed."
+            },
+            {
+              "title": "Product Dimensions (L x B)",
+              "description": "2 x 1 m"
+            },
+            {
+              "title": "Material & Color",
+              "description": "Plastic and Transparent"
+            },
+            {
+              "title": "Special features",
+              "description": "Lightweight and leakproof"
+            }
+          ],
+          "product-image-url": "http://www.ezlifehealthcare.com/wp-content/uploads/2016/10/Waterbed-e1477644975282.jpg",
+          "company": [
+            {
+              "name": "Ez-life"
+            }
+          ]
+        },
+        {
+          "product-id": "5",
+          "product-name": "SH 09 AIR BED",
+          "product-description": "Alternating pressure relief bubble pad system with pump (A unique bed sores therapy system) The bubble pad style offers patients more benefit than linear style pad because the bubble design allows more touch points offering a superior therapy system. Therapy for stage I pressure Very easy to operate Adjustable comfort range with pressure adjustable control knob Adjustable hangers of pump to suit any kind of hospital bed frames Medical grade non-toxic bubble pad mattress with unique design Ultra quiet air pump operation / maintenance free",
+          "product-specs": [
+            {
+              "title": "Pump",
+              "description": "Aluminium motor cover"
+            },
+            {
+              "title": "Air output",
+              "description": "7-8 L/min"
+            },
+            {
+              "title": "Material",
+              "description": "Medical calss Taiwanese PVC 0.3mm high elastic"
+            },
+            {
+              "title": "Warrranty",
+              "description": "12 months"
+            }
+          ],
+          "product-image-url": "http://shivamhealthcare.biz/assets/images/Product/240518061034-Air%20Bed.png",
+          "company": [
+            {
+              "name": "Ez-life"
+            }
+          ]
         }
       ]
     },
@@ -513,6 +629,122 @@
           ],
           "product-image-url": "",
           "company": [{ "name": "" }]
+        },
+        {
+          "product-id": "",
+          "product-name": "",
+          "product-description": "",
+          "product-specs": [
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            }
+          ],
+          "product-image-url": "",
+          "company": [
+            {
+              "name": ""
+            }
+          ]
+        },
+        {
+          "product-id": "",
+          "product-name": "",
+          "product-description": "",
+          "product-specs": [
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            }
+          ],
+          "product-image-url": "",
+          "company": [
+            {
+              "name": ""
+            }
+          ]
+        },
+        {
+          "product-id": "",
+          "product-name": "",
+          "product-description": "",
+          "product-specs": [
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            }
+          ],
+          "product-image-url": "",
+          "company": [
+            {
+              "name": ""
+            }
+          ]
+        },
+        {
+          "product-id": "",
+          "product-name": "",
+          "product-description": "",
+          "product-specs": [
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            },
+            {
+              "title": "",
+              "description": ""
+            }
+          ],
+          "product-image-url": "",
+          "company": [
+            {
+              "name": ""
+            }
+          ]
         }
       ]
     }
