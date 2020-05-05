@@ -606,143 +606,131 @@
       "name": "Healthcare Devices",
       "items": [
         {
-          "product-id": "",
-          "product-name": "",
-          "product-description": "",
+          "product-id": "1",
+          "product-name": "Omron® Professional Intellisense® Blood Pressure Monitor HEM-907 XL",
+          "product-description": "Omron® Professional Intellisense® Blood Pressure Monitor HEM-907 XL Clinically validated for accuracy, the Omron IntelliSense Professional Digital Blood Pressure Monitor is designed for clinical use in a professional setting including a physician’s office, hospital, or other point of care environment. Automatic cuff inflation and deflation eliminates the need to predetermine inflation level setting. Average mode measures up to three readings and averages the total, for a more accurate measurement.",
           "product-specs": [
             {
-              "title": "",
-              "description": ""
+              "title": "Power supply",
+              "description": "AC adapter or rechargeable battery pack"
             },
             {
-              "title": "",
-              "description": ""
-            },
-            {
-              "title": "",
-              "description": ""
-            },
-            {
-              "title": "",
-              "description": ""
+              "title": "Cuff sizes",
+              "description": "Four cuff sizes – \nSmall (7\"-9\"), \nMedium (9\"-13\"), \nLarge (13\"-17\"), \nX-Large (17\"-20\")"
             }
           ],
-          "product-image-url": "",
-          "company": [{ "name": "" }]
+          "product-image-url": "https://www.alimed.com/_resources/cache/images/product/931910A_850x480-pad.jpg",
+          "company": [{ "name": "Omron" }]
         },
         {
-          "product-id": "",
-          "product-name": "",
-          "product-description": "",
+          "product-id": "2",
+          "product-name": "Fingertrip Pulse Oximeter MD300C2",
+          "product-description": "-High brightness OLED displays SpO₂, PR, waveform, and Pulse bar\n-Low power consumption; real-time battery status indication\n-Weak or unstable signal prompt mark helps for more accuracy\n-2pcs AAA-size batteries\n-Six display modes\n-Automatically power off",
           "product-specs": [
             {
-              "title": "",
-              "description": ""
+              "title": "SpO₂",
+              "description": "Measurement range: 70%-100%"
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Pulse Rate",
+              "description": "Measurement range: 30-250bpm"
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Mode",
+              "description": "6 display modes"
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Power Requirements",
+              "description": "Two AAA batteries"
             }
           ],
-          "product-image-url": "",
+          "product-image-url": "http://choicemmed.in/uploads/images/b0808f3ad301573e7153de12ba528a90.png",
           "company": [
             {
-              "name": ""
+              "name": "ChoiceMMed"
             }
           ]
         },
         {
-          "product-id": "",
-          "product-name": "",
-          "product-description": "",
+          "product-id": "3",
+          "product-name": "SOA Blood Pressure Monitor 1304",
+          "product-description": "This is home blood pressure monitor that accommodates consumers with even larger sized arms. The cuff is coupled with a high speed motor for a fast and comfortable reading. It is also equipped with irregular heartbeat detection, which provides blood pressure and pulse rate measurements even when an irregular heartbeat occurs and the high end technology measures blood pressure on inflation while filtering out ambient noise on deflation. With a big display, large buttons for easy operation and AC Power Adapter, this monitor offers speed, reliability and convenience.",
           "product-specs": [
             {
-              "title": "",
-              "description": ""
+              "title": "Monitor Device",
+              "description": "Upper ArmBP"
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Display type",
+              "description": "Digital"
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Cuff size",
+              "description": "Extra large"
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Material",
+              "description": "Latex-free brand"
             }
           ],
-          "product-image-url": "",
+          "product-image-url": "http://www.ezlifehealthcare.com/wp-content/uploads/2013/05/IMG_3080-e1478931396324.jpg",
           "company": [
             {
-              "name": ""
+              "name": "Ez-life"
             }
           ]
         },
         {
-          "product-id": "",
-          "product-name": "",
-          "product-description": "",
+          "product-id": "4",
+          "product-name": "Unisex Adult Diapers (M.L. & X-L.)",
+          "product-description": "Unisex Adult Diapers",
           "product-specs": [
             {
-              "title": "",
-              "description": ""
+              "title": "Specifications",
+              "description": "Specifications:Anti-bacterial agent significantly reduces bacterial growth\nCloth - feel / Non woven\nAbsorbent fluff pad with embossed drainage to allow even distribution of fluid in the absorbent layer\nSuper absorbent POLYBEADS, Super absorbency turns fluids into gel\nSoft Durable P.E. backing - prevents fluid from leaking on to clothing or bed lines\ncloth - feel / non woven top allows one - way passage of fluids in the absorbent layer\nNeutralizing agent helps to neutralize urine to prevent skin irritation"
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Two pairs of adhesive tape",
+              "description": "Allows multiple fasting on the frontal tape"
             },
             {
-              "title": "",
-              "description": ""
-            },
-            {
-              "title": "",
-              "description": ""
+              "title": "Sap",
+              "description": "M-8g=1000ml, L-10g=1200ml, XL-12g=1400ml."
             }
           ],
-          "product-image-url": "",
+          "product-image-url": "http://sbspvtltd.in/adminpanel/images/website_images/prod_images/%7B00958721-942A-8AF4-2F4C-5DCABEDCF055%7D_unisex-adult-diapers.jpg",
           "company": [
             {
-              "name": ""
+              "name": "Shree Balaji Surgical PVT LTD."
             }
           ]
         },
         {
-          "product-id": "",
-          "product-name": "",
-          "product-description": "",
+          "product-id": "5",
+          "product-name": "Digital Thermometer (Hard Tip)",
+          "product-description": "Digital Thermometer (Hard Tip)",
           "product-specs": [
             {
-              "title": "",
-              "description": ""
+              "title": "Reading time",
+              "description": "60 sec"
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Scale",
+              "description": "Dual scale reading in Celsius and Fahrenheit"
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Features",
+              "description": "Waterproof, Last Preserved Reading memory and has a buzzer for informing the user that the reading is complete"
             },
             {
-              "title": "",
-              "description": ""
+              "title": "Battery",
+              "description": "1.5V"
             }
           ],
-          "product-image-url": "",
+          "product-image-url": "http://www.ishnee.com/prduct/Thermometers/IN-101A.gif",
           "company": [
             {
-              "name": ""
+              "name": "Ishneel Healthcare Pvt. LTD."
             }
           ]
         }
