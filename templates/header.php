@@ -1,3 +1,7 @@
+<?php
+session_start();
+$loggedin = isset($_SESSION["username"]);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,27 +15,39 @@
 
 <body>
     <div class="header">
-        <a href="../index.html" class="company-logo">
+        <a href="../index.php" class="company-logo">
             <div>
                 <img src="../assets/SMB_edited.png" />
             </div>
         </a>
         <nav id="topNav" class="header-buttons topnav">
-            <a href="../index.html" id="home">
+            <a href="../index.php" id="home">
                 <div>Home</div>
             </a>
-            <a href="../pages/Products.html" id="Products">
+            <a href="../pages/Products.php" id="Products">
                 <div>Products</div>
             </a>
-            <a href="../pages/Aboutus.html" id="About">
+            <a href="../pages/Aboutus.php" id="About">
                 <div>About Us</div>
             </a>
-            <a href="../pages/contactus.html" id="Contact-us">
+            <a href="../pages/contactus.php" id="Contact-us">
                 <div>Contact Us</div>
             </a>
-            <a href="../pages/Login.php" id="Login">
-                <div>Login</div>
-            </a>
+            <?php if ($loggedin) {
+            ?>
+                <!-- <div class="dropdown"> -->
+                <a href="./signout.php" id="Username">
+                    <div><?= $_SESSION["username"] ?></div>
+                </a>
+                <!-- <div class="dropdown-menu" aria-labelledby="Username"> -->
+                <!-- </div> -->
+            <?php } else {
+            ?>
+                <a href="./login.html" id="Login">
+                    <div>Login</div>
+                </a>
+            <?php } ?>
+
         </nav>
         <a href="javascript:void(0);" class="header-nav-button" onclick="dropNav()">
             <i class="fas fa-2x fa-bars" style="color: white;"></i>

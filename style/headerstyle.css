@@ -121,3 +121,10 @@ body {
     float: left;
   }
 }
+
+#Username:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content {
+  display: none;
+}

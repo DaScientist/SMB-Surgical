@@ -1,3 +1,8 @@
+<?php
+session_start();
+$loggedin = isset($_SESSION["username"]);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,8 +12,7 @@
     <title>About SMB Surgicals</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../style/headerstyle.css">
     <link rel="stylesheet" href="../style/footerstyle.css">
@@ -17,27 +21,38 @@
 
 <body>
     <div class="header">
-        <a href="../index.html" class="company-logo">
+        <a href="../index.php" class="company-logo">
             <div>
                 <img src="../assets/SMB_edited.png" />
             </div>
         </a>
         <nav id="topNav" class="header-buttons topnav">
-            <a href="../index.html" id="home">
+            <a href="../index.php" id="home">
                 <div>Home</div>
             </a>
-            <a href="./Products.html" id="Products">
+            <a href="./Products.php" id="Products">
                 <div>Products</div>
             </a>
-            <a href="./Aboutus.html" id="About" class="active">
+            <a href="./Aboutus.php" id="About" class="active">
                 <div>About Us</div>
             </a>
-            <a href="./contactus.html" id="Contact-us">
+            <a href="./contactus.php" id="Contact-us">
                 <div>Contact Us</div>
             </a>
-            <a href="./login.html" id="Login">
-                <div>Login</div>
-            </a>
+            <?php if ($loggedin) {
+            ?>
+                <!-- <div class="dropdown"> -->
+                <a href="./signout.php" id="Username">
+                    <div><?= $_SESSION["username"] ?></div>
+                </a>
+                <!-- <div class="dropdown-menu" aria-labelledby="Username"> -->
+                <!-- </div> -->
+            <?php } else {
+            ?>
+                <a href="./login.html" id="Login">
+                    <div>Login</div>
+                </a>
+            <?php } ?>
         </nav>
         <a href="javascript:void(0);" class="header-nav-button" onclick="dropNav()">
             <i class="fas fa-2x fa-bars" style="color: white;"></i>
@@ -85,8 +100,7 @@
                         </div>
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img src="../assets/Mutanseer_only_face.jpg" alt="Mustanseer Sakerwala"
-                                    class="card-img">
+                                <img src="../assets/Mutanseer_only_face.jpg" alt="Mustanseer Sakerwala" class="card-img">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -144,10 +158,7 @@
                 </div>
                 <div class="col-md-4 col-sm-12 justify-content-center text-center">
                     <!-- Address -->
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14765.648864170133!2d73.220786!3d22.3002448!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xda68269a0a304015!2sSMB%20Surgical!5e0!3m2!1sen!2sin!4v1587057482377!5m2!1sen!2sin"
-                        width="350" height="200" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14765.648864170133!2d73.220786!3d22.3002448!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xda68269a0a304015!2sSMB%20Surgical!5e0!3m2!1sen!2sin!4v1587057482377!5m2!1sen!2sin" width="350" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
             <div class="row justify-content-center">

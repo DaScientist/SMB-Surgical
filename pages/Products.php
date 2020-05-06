@@ -1,3 +1,8 @@
+<?php
+session_start();
+$loggedin = isset($_SESSION["username"]);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,8 +12,7 @@
     <title>Product Catalogue</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../style/headerstyle.css">
     <link rel="stylesheet" href="../style/footerstyle.css">
@@ -17,27 +21,38 @@
 
 <body>
     <div class="header">
-        <a href="../index.html" class="company-logo">
+        <a href="../index.php" class="company-logo">
             <div>
                 <img src="../assets/SMB_edited.png" />
             </div>
         </a>
         <nav id="topNav" class="header-buttons topnav">
-            <a href="../index.html" id="home">
+            <a href="../index.php" id="home">
                 <div>Home</div>
             </a>
-            <a href="./Products.html" id="Products" class="active">
+            <a href="./Products.php" id="Products" class="active">
                 <div>Products</div>
             </a>
-            <a href="./Aboutus.html" id="About">
+            <a href="./Aboutus.php" id="About">
                 <div>About Us</div>
             </a>
-            <a href="./contactus.html" id="Contact-us">
+            <a href="./contactus.php" id="Contact-us">
                 <div>Contact Us</div>
             </a>
-            <a href="./login.html" id="Login">
-                <div>Login</div>
-            </a>
+            <?php if ($loggedin) {
+            ?>
+                <!-- <div class="dropdown"> -->
+                <a href="./signout.php" id="Username">
+                    <div><?= $_SESSION["username"] ?></div>
+                </a>
+                <!-- <div class="dropdown-menu" aria-labelledby="Username"> -->
+                <!-- </div> -->
+            <?php } else {
+            ?>
+                <a href="./login.html" id="Login">
+                    <div>Login</div>
+                </a>
+            <?php } ?>
         </nav>
         <a href="javascript:void(0);" class="header-nav-button" onclick="dropNav()">
             <i class="fas fa-2x fa-bars" style="color: white;"></i>
@@ -63,40 +78,21 @@
                     <div class="col-12">
                         <nav>
                             <div class="nav nav-tabs" id="nav-rehab-tab" role="tablist">
-                                <a class="nav-item nav-link active" id="nav-rehab-wheelchair-tab" data-toggle="tab"
-                                    href="#nav-rehab-wheelchair" role="tab" aria-controls="nav-rehab-wheelchair"
-                                    aria-selected="true"><img
-                                        src="https://img.icons8.com/emoji/48/000000/manual-wheelchair.png" /><span>WheelChair</span></a>
-                                <a class="nav-item nav-link" id="nav-rehab-walker-tab" data-toggle="tab"
-                                    href="#nav-rehab-walker" role="tab" aria-controls="nav-rehab-walker"
-                                    aria-selected="false"><img
-                                        src="https://img.icons8.com/dusk/64/000000/walker.png" /><span>
+                                <a class="nav-item nav-link active" id="nav-rehab-wheelchair-tab" data-toggle="tab" href="#nav-rehab-wheelchair" role="tab" aria-controls="nav-rehab-wheelchair" aria-selected="true"><img src="https://img.icons8.com/emoji/48/000000/manual-wheelchair.png" /><span>WheelChair</span></a>
+                                <a class="nav-item nav-link" id="nav-rehab-walker-tab" data-toggle="tab" href="#nav-rehab-walker" role="tab" aria-controls="nav-rehab-walker" aria-selected="false"><img src="https://img.icons8.com/dusk/64/000000/walker.png" /><span>
                                         Walker</span></a>
-                                <a class="nav-item nav-link" id="nav-rehab-walking-stick-tab" data-toggle="tab"
-                                    href="#nav-rehab-walking-stick" role="tab" aria-controls="nav-rehab-walking-stick"
-                                    aria-selected="false"><img
-                                        src="https://img.icons8.com/color/48/000000/walking-stick.png" /><span>Walking
+                                <a class="nav-item nav-link" id="nav-rehab-walking-stick-tab" data-toggle="tab" href="#nav-rehab-walking-stick" role="tab" aria-controls="nav-rehab-walking-stick" aria-selected="false"><img src="https://img.icons8.com/color/48/000000/walking-stick.png" /><span>Walking
                                         Stick</span></a>
-                                <a class="nav-item nav-link" id="nav-rehab-commode-tab" data-toggle="tab"
-                                    href="#nav-rehab-commode" role="tab" aria-controls="nav-rehab-commode"
-                                    aria-selected="false"><img
-                                        src="https://img.icons8.com/dusk/64/000000/toilet-bowl.png" /><span>Commode
+                                <a class="nav-item nav-link" id="nav-rehab-commode-tab" data-toggle="tab" href="#nav-rehab-commode" role="tab" aria-controls="nav-rehab-commode" aria-selected="false"><img src="https://img.icons8.com/dusk/64/000000/toilet-bowl.png" /><span>Commode
                                         Tools</span></a>
-                                <a class="nav-item nav-link" id="nav-rehab-bed-tab" data-toggle="tab"
-                                    href="#nav-rehab-bed" role="tab" aria-controls="nav-rehab-bed"
-                                    aria-selected="false"><img
-                                        src="https://img.icons8.com/cotton/64/000000/bed--v1.png" /><span>Rehabilitation
+                                <a class="nav-item nav-link" id="nav-rehab-bed-tab" data-toggle="tab" href="#nav-rehab-bed" role="tab" aria-controls="nav-rehab-bed" aria-selected="false"><img src="https://img.icons8.com/cotton/64/000000/bed--v1.png" /><span>Rehabilitation
                                         Bed</span></a>
-                                <a class="nav-item nav-link" id="nav-rehab-healthcare-tab" data-toggle="tab"
-                                    href="#nav-rehab-healthcare" role="tab" aria-controls="nav-rehab-healthcare"
-                                    aria-selected="false"><img
-                                        src="https://img.icons8.com/dusk/64/000000/survival-bag.png" /><span>Healthcare
+                                <a class="nav-item nav-link" id="nav-rehab-healthcare-tab" data-toggle="tab" href="#nav-rehab-healthcare" role="tab" aria-controls="nav-rehab-healthcare" aria-selected="false"><img src="https://img.icons8.com/dusk/64/000000/survival-bag.png" /><span>Healthcare
                                         Devices</span></a>
                             </div>
                         </nav>
                         <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="nav-rehab-wheelchair" role="tabpanel"
-                                aria-labelledby="nav-rehab-wheelchair-tab">
+                            <div class="tab-pane fade show active" id="nav-rehab-wheelchair" role="tabpanel" aria-labelledby="nav-rehab-wheelchair-tab">
                                 <div class="container">
                                     <div class="row">
                                         <div class="card-group">
@@ -119,8 +115,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="nav-rehab-walker" role="tabpanel"
-                                aria-labelledby="nav-rehab-walker-tab">
+                            <div class="tab-pane fade" id="nav-rehab-walker" role="tabpanel" aria-labelledby="nav-rehab-walker-tab">
                                 <div class="container">
                                     <div class="row">
                                         <div class="card-group">
@@ -143,8 +138,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="nav-rehab-walking-stick" role="tabpanel"
-                                aria-labelledby="nav-rehab-walking-stick-tab">
+                            <div class="tab-pane fade" id="nav-rehab-walking-stick" role="tabpanel" aria-labelledby="nav-rehab-walking-stick-tab">
                                 <div class="container">
                                     <div class="row">
                                         <div class="card-group">
@@ -167,8 +161,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="nav-rehab-commode" role="tabpanel"
-                                aria-labelledby="nav-rehab-commode-tab">
+                            <div class="tab-pane fade" id="nav-rehab-commode" role="tabpanel" aria-labelledby="nav-rehab-commode-tab">
                                 <div class="container">
                                     <div class="row">
                                         <div class="card-group">
@@ -191,8 +184,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="nav-rehab-bed" role="tabpanel"
-                                aria-labelledby="nav-rehab-bed-tab">
+                            <div class="tab-pane fade" id="nav-rehab-bed" role="tabpanel" aria-labelledby="nav-rehab-bed-tab">
                                 <div class="container">
                                     <div class="row">
                                         <div class="card-group">
@@ -215,8 +207,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="nav-rehab-healthcare" role="tabpanel"
-                                aria-labelledby="nav-rehab-healthcare-tab">
+                            <div class="tab-pane fade" id="nav-rehab-healthcare" role="tabpanel" aria-labelledby="nav-rehab-healthcare-tab">
                                 <div class="container">
                                     <div class="row">
                                         <div class="card-group">
@@ -240,8 +231,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="modal fade" id="rehabModal" tabindex="-1" role="dialog"
-                            aria-labelledby="rehabModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="rehabModal" tabindex="-1" role="dialog" aria-labelledby="rehabModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-xl" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -254,8 +244,7 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-4">
-                                                    <img src="../assets/Mutanseer_only_face.jpg"
-                                                        alt="Mustanseer Sakerwala" id="" class="card-img">
+                                                    <img src="../assets/Mutanseer_only_face.jpg" alt="Mustanseer Sakerwala" id="" class="card-img">
                                                 </div>
                                                 <div class="col-md-8" id="modal-content-pointer">
                                                     <h2>Product Name</h2>
@@ -336,10 +325,7 @@
                 </div>
                 <div class="col-md-4 col-sm-12">
                     <!-- Address -->
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14765.648864170133!2d73.220786!3d22.3002448!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xda68269a0a304015!2sSMB%20Surgical!5e0!3m2!1sen!2sin!4v1587057482377!5m2!1sen!2sin"
-                        width="350" height="200" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14765.648864170133!2d73.220786!3d22.3002448!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xda68269a0a304015!2sSMB%20Surgical!5e0!3m2!1sen!2sin!4v1587057482377!5m2!1sen!2sin" width="350" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -347,15 +333,9 @@
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="../scripts/headerScript.js"></script>
 
     <script src="../scripts/products.js"></script>
