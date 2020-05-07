@@ -2,7 +2,7 @@
 $email = $_POST["email"];
 $pass = $_POST["pass"];
 
-$mysqli = new mysqli("localhost", "root", "", "smb");
+include('connection.php');
 
 if ($result = $mysqli->query("select * from users where email = '$email' and pass = '$pass'")) {
     session_start();

@@ -1,0 +1,42 @@
+.main {
+  margin-top: 100px;
+  height: 300px;
+}
+
+.border-dark {
+  color: black;
+  font-weight: bold;
+  border-radius: 0;
+  border-width: 4px;
+}
+
+.btn-outline-secondary {
+  color: black;
+  font-weight: bold;
+  border-radius: 0;
+  border-width: 4px;
+  border-color: black;
+}
+
+#cart-receipt {
+  border: 4px solid black;
+  /* display: block; */
+  /* width: 100%; */
+}
+
+#cart-receipt tr,
+#cart-receipt td,
+#cart-receipt th {
+  /* width: 100%; */
+
+  padding: 4px;
+  height: 30px;
+  border: 4px solid black;
+}
+
+/* .pname {
+  width: 300px;
+}
+.pprice {
+  width: 200px;
+} */

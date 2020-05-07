@@ -80,6 +80,14 @@ body {
   display: none;
 }
 
+.header-buttons a div i {
+  margin: 4px;
+}
+.header-buttons a div div {
+  display: none;
+  visibility: hidden;
+}
+
 @media screen and (max-width: 808px) {
   .topnav a {
     display: none;
@@ -107,7 +115,7 @@ body {
   .topnav.responsive a {
     float: left;
     display: block;
-    text-align: left;
+    width: 100%;
     text-decoration: none;
   }
   .header-buttons.topnav.responsive {
@@ -119,6 +127,17 @@ body {
   }
   .company-logo {
     float: left;
+  }
+  .header-buttons a div {
+    text-align: left;
+  }
+  .header-buttons a div div {
+    display: inline-block;
+    visibility: visible;
+  }
+  .header-buttons a div i {
+    margin: 4px;
+    margin-right: 16px;
   }
 }
 

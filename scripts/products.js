@@ -173,6 +173,9 @@ $("#rehabModal").on("show.bs.modal", function (event) {
   modal
     .find(".modal-body #modal-content-pointer h5")
     .text(product["company"][0].name);
+
+  modal.find("#addToCart #input-category").val(category);
+  modal.find("#addToCart #input-pid").val(pid);
 });
 // Wheelchair card
 // <div class="col-md-4 col-sm-12 text-center justify-content-center"
