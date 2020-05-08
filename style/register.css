@@ -14,7 +14,7 @@ body {
 }
 .container {
   /* opacity: 1; */
-  padding: 32px 0 0 0;
+  padding-top: 32px;
   margin: 0;
   max-width: 100%;
 }
@@ -26,10 +26,6 @@ body {
   height: auto;
   align-self: flex-end;
 }
-/* .login {
-  margin: 32px 0 0 0;
-  padding: 32px 0 0 0; 
-} */
 
 .input-type {
   padding: 4px;
@@ -52,8 +48,4 @@ body {
   display: block;
   color: #a64e1b;
   background-color: #87c6db;
-}
-
-.forgot {
-  color: #87c6db;
 }

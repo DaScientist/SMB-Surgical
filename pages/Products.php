@@ -194,11 +194,13 @@ $loggedin = isset($_SESSION["username"]);
                                         </div>
                                     </div>
                                     <div class="modal-footer">
+                                        <?php if($loggedin){ ?>
                                         <form id="addToCart" action="AddToCart.php" method="post">
                                             <input type="text" id="input-category" name="input-category" style="visibility: hidden;display: none">
                                             <input type="text" id="input-pid" name="input-pid" style="visibility: hidden;display: none">
                                             <button type="submit" id="submit" class="btn btn-primary">Add To Cart</button>
                                         </form>
+                                        <?php } ?>
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                     </div>
                                 </div>
